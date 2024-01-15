@@ -1,0 +1,12 @@
+#btn{
+    width: fit-content;
+    padding: 5px;
+    background-color: skyblue;
+    border-radius: 8px;
+    color: black;
+}
+
+#btn.load{
+    background-color: grey;
+    cursor: none;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: grey;
+    align-items: center;
+    color: white;
+}
+
+.conatiner{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    background: black;
+    align-items: center;
+}
+ 
+.input{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    background: white;
+    border-radius: 7px;
+}
+
+.input:hover{
+    border: 3px solid green;
+}
+
+.btn{
+    width: 200px;
+    padding: 7px;
+    color: white;
+    border: 1px solid white;
+    background: black;
+    border-radius: 7px;
+}
+
+
+.fa-duotone{
+    color: green;
+    display: none;    
+}
+

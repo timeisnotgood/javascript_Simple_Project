@@ -21,8 +21,6 @@ add.addEventListener("click",()=>{
     delet.classList.add('btn')
     task.appendChild(delet)
 
-
-
     if(input.value == ''){
         alert("Fields Should not be Empty")
     }else{
